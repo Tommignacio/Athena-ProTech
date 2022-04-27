@@ -201,6 +201,19 @@ section {
 }
 #footer .copyright {
 	float: none;
+	display: flex;
+}
+.copy-left {
+	flex-basis: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.copy-right {
+	flex-basis: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 #footer .footer-top .social-links a {
 	background: none;
@@ -224,8 +237,7 @@ section {
 	padding: 1em;
 }
 .img-ssl {
-	height: 124px;
-	width: auto;
+	height: 50px;
 }
 
 @media (min-width: 465px) {
@@ -305,8 +317,14 @@ section {
 	padding: 0.1rem;
 }
 .pay-methods {
-	width: 150px;
+	width: 197px;
 	height: auto;
+	margin-top: 1rem;
+}
+@media (min-width: 991px) {
+	.pay-methods {
+		width: 221px;
+	}
 }
 
 .displayNone {
