@@ -200,7 +200,6 @@ section {
 	background: var(--blue-color) !important;
 }
 
-
 #footer .copyright {
 	float: none;
 	display: flex;
@@ -212,13 +211,13 @@ section {
 	justify-content: center;
 }
 
-.cb{
-	height: 20px !important; 
+.cb {
+	height: 20px !important;
 }
 .copy-right {
 	flex-basis: 90%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 }
 #footer .footer-top .social-links a {
@@ -240,7 +239,19 @@ section {
 }
 .columns {
 	flex-basis: 100%;
-	padding: 1em;
+	padding-left: 1rem;
+	padding-bottom: 1rem;
+}
+.flex-columns-center {
+	display: flex;
+	flex-direction: column;
+}
+.athena-footer {
+	text-align: left;
+	margin-left: 0.6rem;
+}
+.align-left {
+	text-align: left !important;
 }
 .img-ssl {
 	height: 50px;
@@ -265,10 +276,9 @@ section {
 	margin: 0 !important;
 	padding: 0.2rem !important;
 	text-align: center;
-	
 }
 
-.p-address{
+.p-address {
 	margin: 0 !important;
 	padding: 0.2rem !important;
 	text-align: initial;
@@ -319,8 +329,6 @@ section {
 	margin-top: 0;
 }
 
-
-
 .flex-div-e-commerce {
 	display: flex;
 	justify-content: center;
@@ -355,11 +363,11 @@ section {
 	background-color: var(--coral-color) !important;
 }
 
-.direction-flex{
+.direction-flex {
 	display: flex;
 	align-items: center;
 }
-.img-direction{
+.img-direction {
 	height: 42px;
 }
 
@@ -380,9 +388,6 @@ section {
 	border-radius: 50px;
 	margin: 0 auto;
 }
-
-
-
 
 /* ---------- PARA EMPRESA -------- */
 .flex-paraEmpresa {
@@ -473,17 +478,15 @@ a:hover {
 	padding-bottom: 1px;
 }
 
-
-.modality{
+.modality {
 	margin-left: 0;
 }
 
 @media (min-width: 991px) {
-	.modality{
+	.modality {
 		margin-left: 38px;
 	}
 }
-
 
 .contact-us {
 	color: var(--coral-color);
