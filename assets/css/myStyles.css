@@ -120,7 +120,7 @@ section {
 	background: var(--grey-color);
 }
 .about .image {
-	background: url(../img/services-img/aboutImg.png) center center no-repeat;
+	background: url(../img/about-img-01.png) center center no-repeat;
 	background-size: cover;
 	min-height: 525px;
 }
@@ -196,9 +196,11 @@ section {
 	font-style: normal;
 }
 
-#footer .footer-top .social-links a:hover {
-	background: none;
+#footer .footer-top .social-links a {
+	background: var(--blue-color) !important;
 }
+
+
 #footer .copyright {
 	float: none;
 	display: flex;
@@ -208,6 +210,10 @@ section {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.cb{
+	height: 20px !important; 
 }
 .copy-right {
 	flex-basis: 90%;
@@ -258,6 +264,15 @@ section {
 .p-direction {
 	margin: 0 !important;
 	padding: 0.2rem !important;
+	text-align: center;
+	
+}
+
+.p-address{
+	margin: 0 !important;
+	padding: 0.2rem !important;
+	text-align: initial;
+	justify-content: center;
 }
 
 .a-social-img {
@@ -304,6 +319,8 @@ section {
 	margin-top: 0;
 }
 
+
+
 .flex-div-e-commerce {
 	display: flex;
 	justify-content: center;
@@ -337,6 +354,36 @@ section {
 .suscribe-btn {
 	background-color: var(--coral-color) !important;
 }
+
+.direction-flex{
+	display: flex;
+	align-items: center;
+}
+.img-direction{
+	height: 42px;
+}
+
+#acept {
+	color: var(--cream-color);
+	border: 1px solid var(--blue-color);
+	background: var(--blue-color);
+	margin-top: 1rem;
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+#no {
+	color: var(--cream-color);
+	border: 1px solid var(--blue-color);
+	background: var(--blue-color);
+	margin-top: 1rem;
+	border-radius: 50px;
+	margin: 0 auto;
+}
+
+
+
+
 /* ---------- PARA EMPRESA -------- */
 .flex-paraEmpresa {
 	margin-top: 1rem;
@@ -425,6 +472,19 @@ a:hover {
 .features .content ul li {
 	padding-bottom: 1px;
 }
+
+
+.modality{
+	margin-left: 0;
+}
+
+@media (min-width: 991px) {
+	.modality{
+		margin-left: 38px;
+	}
+}
+
+
 .contact-us {
 	color: var(--coral-color);
 	transition: ease-in all 1s;
