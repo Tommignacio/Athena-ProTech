@@ -268,9 +268,9 @@ section {
 		flex-basis: 25%;
 	}
 }
-.direction {
+/* .direction {
 	margin-top: 1rem;
-}
+} */
 
 .p-direction {
 	margin: 0 !important;
@@ -336,7 +336,7 @@ section {
 }
 
 .ul-footer {
-	margin-top: 1rem;
+	margin-top: 0.3rem;
 }
 .li-footer {
 	padding: 0.1rem;
@@ -349,6 +349,26 @@ section {
 @media (min-width: 991px) {
 	.pay-methods {
 		width: 221px;
+	}
+}
+
+.mail-flex {
+	display: flex;
+	align-items: center;
+	align-content: center;
+}
+
+.form-style {
+	width: 16rem;
+}
+@media (min-width: 464px) {
+	.form-style {
+		width: 25rem;
+	}
+}
+@media (min-width: 991px) {
+	.form-style {
+		width: auto;
 	}
 }
 
