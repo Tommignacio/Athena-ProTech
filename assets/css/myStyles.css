@@ -61,6 +61,12 @@ section {
 	margin-top: 71px;
 }
 
+@media (max-width: 991px) {
+	#hero .hero-img img {
+		width: 80%;
+	}
+}
+
 /* ------ NAVBAR  ---------*/
 .navbar a,
 .navbar a:focus {
@@ -108,7 +114,7 @@ section {
 }
 @media (min-width: 991px) {
 	.heroSection {
-		height: 76.3vh;
+		height: 73.3vh;
 	}
 }
 .subtitle-home {
@@ -133,6 +139,40 @@ section {
 	justify-content: center;
 }
 
+/* -----ABOUT US-----  */
+
+.justify-center {
+	justify-content: center;
+}
+.image-about {
+	width: 100%;
+}
+@media (min-width: 396px) {
+	.image-about {
+		width: 70%;
+	}
+}
+@media (min-width: 576px) {
+	.image-about {
+		width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	.image-about {
+		width: 80%;
+	}
+}
+@media (min-width: 991px) {
+	.image-about {
+		width: 70%;
+	}
+}
+@media (min-width: 1200px) {
+	.image-about {
+		width: 41.66666667%;
+	}
+}
+
 /* -----SERVICE-----  */
 .main-courses {
 	background-color: var(--grey-color);
@@ -147,7 +187,7 @@ section {
 }
 @media (max-width: 768px) {
 	.about .image {
-		min-height: 400px;
+		min-height: 440px;
 	}
 }
 @media (max-width: 574px) {
