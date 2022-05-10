@@ -164,7 +164,7 @@ section {
 }
 @media (min-width: 991px) {
 	.image-about {
-		width: 70%;
+		width: 56%;
 	}
 }
 @media (min-width: 1200px) {
@@ -181,28 +181,26 @@ section {
 	background: var(--grey-color);
 }
 .about .image {
-	background: url(../img/about-img-01.png) center center no-repeat;
+	background: url(../img/mauri.png) center center no-repeat;
 	background-size: cover;
 	min-height: 525px;
 }
 @media (max-width: 768px) {
 	.about .image {
-		min-height: 440px;
+		min-height: 532px;
 	}
 }
+
 @media (max-width: 574px) {
 	.about .image {
 		min-height: 300px;
-	}
-}
-@media (max-width: 574px) {
-	.about .image {
-		min-height: 300px;
+		max-width: 300px;
 	}
 }
 @media (max-width: 375px) {
 	.about .image {
 		min-height: 290px;
+		max-width: 86%;
 	}
 }
 
